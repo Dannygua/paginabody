@@ -3,8 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ANIMACION_atlas_1", frames: [[0,0,1920,1920]]},
-		{name:"ANIMACION_atlas_2", frames: [[0,0,600,470]]}
+		{name:"ANIMACION_atlas_1", frames: [[0,0,600,470]]},
+		{name:"ANIMACION_atlas_2", frames: [[0,0,1920,1920]]}
 ];
 
 
@@ -29,14 +29,14 @@ lib.ssMetadata = [
 
 
 (lib.m = function() {
-	this.initialize(ss["ANIMACION_atlas_1"]);
+	this.initialize(ss["ANIMACION_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.pie_2 = function() {
-	this.initialize(ss["ANIMACION_atlas_2"]);
+	this.initialize(ss["ANIMACION_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -1044,11 +1044,11 @@ if (reversed == null) { reversed = false; }
 	this.mycss = new lib.an_CSS({'id': 'mycss', 'href':'assets/mycss.css'});
 
 	this.mycss.name = "mycss";
-	this.mycss.setTransform(322.35,49.4,1,1,0,0,0,50,11);
+	this.mycss.setTransform(63.1,49.4,1,1,0,0,0,50,11);
 
 	this.InputCabeza = new lib.Símbolo56();
 	this.InputCabeza.name = "InputCabeza";
-	this.InputCabeza.setTransform(156.4,105.7,1.0202,1.7857,0,0,0,39.6,5.6);
+	this.InputCabeza.setTransform(171.4,105.7,1.0202,1.7857,0,0,0,39.6,5.6);
 
 	this.caderas2 = new lib.Símbolo55();
 	this.caderas2.name = "caderas2";
@@ -1156,32 +1156,32 @@ if (reversed == null) { reversed = false; }
 
 	this.btnPiernas = new lib.Símbolo31();
 	this.btnPiernas.name = "btnPiernas";
-	this.btnPiernas.setTransform(269.5,300.1,1.3321,1.143,0,0,0,34.9,8.2);
+	this.btnPiernas.setTransform(284.5,300.1,1.3321,1.143,0,0,0,34.9,8.2);
 	new cjs.ButtonHelper(this.btnPiernas, 0, 1, 1);
 
 	this.btnEstomago = new lib.Símbolo30();
 	this.btnEstomago.name = "btnEstomago";
-	this.btnEstomago.setTransform(269.5,258.55,1.3321,1.143,0,0,0,34.9,7.8);
+	this.btnEstomago.setTransform(284.5,258.55,1.3321,1.143,0,0,0,34.9,7.8);
 	new cjs.ButtonHelper(this.btnEstomago, 0, 1, 1);
 
 	this.btnPecho = new lib.Símbolo29();
 	this.btnPecho.name = "btnPecho";
-	this.btnPecho.setTransform(268.6,221.3,1.3321,1.143,0,0,0,34.9,8.1);
+	this.btnPecho.setTransform(283.6,221.3,1.3321,1.143,0,0,0,34.9,8.1);
 	new cjs.ButtonHelper(this.btnPecho, 0, 1, 1);
 
 	this.btnBrazos = new lib.Símbolo28();
 	this.btnBrazos.name = "btnBrazos";
-	this.btnBrazos.setTransform(269.5,185.65,1.3321,1.143,0,0,0,34.9,8.2);
+	this.btnBrazos.setTransform(284.5,185.65,1.3321,1.143,0,0,0,34.9,8.2);
 	new cjs.ButtonHelper(this.btnBrazos, 0, 1, 1);
 
 	this.btnCuello = new lib.Símbolo27();
 	this.btnCuello.name = "btnCuello";
-	this.btnCuello.setTransform(269.5,147.9,1.3321,1.143,0,0,0,34.9,7.8);
+	this.btnCuello.setTransform(284.5,147.9,1.3321,1.143,0,0,0,34.9,7.8);
 	new cjs.ButtonHelper(this.btnCuello, 0, 1, 1);
 
 	this.btnCabeza = new lib.Símbolo26();
 	this.btnCabeza.name = "btnCabeza";
-	this.btnCabeza.setTransform(269.5,109.05,1.3321,1.143,0,0,0,34.9,8.4);
+	this.btnCabeza.setTransform(284.5,109.05,1.3321,1.143,0,0,0,34.9,8.4);
 	new cjs.ButtonHelper(this.btnCabeza, 0, 1, 1);
 
 	this.cara2 = new lib.Símbolo3();
@@ -1197,60 +1197,60 @@ if (reversed == null) { reversed = false; }
 	this.text.lineHeight = 22;
 	this.text.lineWidth = 70;
 	this.text.parent = this;
-	this.text.setTransform(63.3,291.4);
+	this.text.setTransform(78.3,291.4);
 
 	this.InputPiernas = new lib.an_TextInput({'id': 'InputPiernas', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.InputPiernas.name = "InputPiernas";
-	this.InputPiernas.setTransform(155.7,298.7,0.792,0.9091,0,0,0,50.1,11.2);
+	this.InputPiernas.setTransform(170.7,298.7,0.792,0.9091,0,0,0,50.1,11.2);
 
 	this.text_1 = new cjs.Text("Estomago:", "15px 'Yu Gothic UI'");
 	this.text_1.textAlign = "right";
 	this.text_1.lineHeight = 22;
 	this.text_1.lineWidth = 72;
 	this.text_1.parent = this;
-	this.text_1.setTransform(99.95,251.7);
+	this.text_1.setTransform(114.95,251.7);
 
 	this.InputEstomago = new lib.an_TextInput({'id': 'InputEstomago', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.InputEstomago.name = "InputEstomago";
-	this.InputEstomago.setTransform(155.7,257.5,0.792,0.9091,0,0,0,50.1,11.1);
+	this.InputEstomago.setTransform(170.7,257.5,0.792,0.9091,0,0,0,50.1,11.1);
 
 	this.text_2 = new cjs.Text("Pecho:", "15px 'Yu Gothic UI'");
 	this.text_2.textAlign = "center";
 	this.text_2.lineHeight = 22;
 	this.text_2.lineWidth = 71;
 	this.text_2.parent = this;
-	this.text_2.setTransform(64.9,216.25);
+	this.text_2.setTransform(79.9,216.25);
 
 	this.InputPecho = new lib.an_TextInput({'id': 'InputPecho', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.InputPecho.name = "InputPecho";
-	this.InputPecho.setTransform(155.25,220.85,0.792,0.9091,0,0,0,50.1,11.2);
+	this.InputPecho.setTransform(170.25,220.85,0.792,0.9091,0,0,0,50.1,11.2);
 
 	this.text_3 = new cjs.Text("Brazos:", "15px 'Yu Gothic UI'");
 	this.text_3.textAlign = "center";
 	this.text_3.lineHeight = 22;
 	this.text_3.lineWidth = 71;
 	this.text_3.parent = this;
-	this.text_3.setTransform(64.65,172.7);
+	this.text_3.setTransform(79.65,172.7);
 
 	this.InputBrazos = new lib.an_TextInput({'id': 'InputBrazos', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.InputBrazos.name = "InputBrazos";
-	this.InputBrazos.setTransform(155.7,180.15,0.792,0.9091,0,0,0,50.1,11.2);
+	this.InputBrazos.setTransform(170.7,180.15,0.792,0.9091,0,0,0,50.1,11.2);
 
 	this.text_4 = new cjs.Text("Cuello:", "15px 'Yu Gothic UI'");
 	this.text_4.textAlign = "center";
 	this.text_4.lineHeight = 22;
 	this.text_4.lineWidth = 71;
 	this.text_4.parent = this;
-	this.text_4.setTransform(64.65,136.25);
+	this.text_4.setTransform(79.65,136.25);
 
 	this.InputCuello = new lib.an_TextInput({'id': 'InputCuello', 'value':'', 'disabled':false, 'visible':true, 'class':'ui-textinput'});
 
 	this.InputCuello.name = "InputCuello";
-	this.InputCuello.setTransform(155.7,142.05,0.792,0.9095,0,0,0,50.1,11.2);
+	this.InputCuello.setTransform(170.7,142.05,0.792,0.9095,0,0,0,50.1,11.2);
 
 	this.texto = new cjs.Text("MEDIDAS DEL CUERPO", "20px 'Yu Gothic UI'");
 	this.texto.name = "texto";
@@ -1258,14 +1258,14 @@ if (reversed == null) { reversed = false; }
 	this.texto.lineHeight = 29;
 	this.texto.lineWidth = 152;
 	this.texto.parent = this;
-	this.texto.setTransform(183.3,22.7);
+	this.texto.setTransform(198.3,22.7);
 
 	this.text_5 = new cjs.Text("Cabeza:", "15px 'Yu Gothic UI'");
 	this.text_5.textAlign = "center";
 	this.text_5.lineHeight = 22;
 	this.text_5.lineWidth = 58;
 	this.text_5.parent = this;
-	this.text_5.setTransform(64.2586,101.45,1.2114,1);
+	this.text_5.setTransform(79.2586,101.45,1.2114,1);
 
 	this.instance = new lib.m();
 	this.instance.setTransform(477.15,227.5,0.018,0.018,0,150.0443,-29.9557);
@@ -1292,7 +1292,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(301,206.2,206.10000000000002,190.2);
+p.nominalBounds = new cjs.Rectangle(287.6,206.2,219.5,190.2);
 // library properties:
 lib.properties = {
 	id: 'EE60CEEF93FBDF4C872CC27F9FB9F823',
